@@ -12,4 +12,4 @@ A project that helps us better understand Jane Austens Pathos, logos and ethos w
 - Definitions
 
 ## Proposed Layout
-
+![Proposed Layout](../LanguageExploration.PNG)
