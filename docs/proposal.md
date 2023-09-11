@@ -1,14 +1,15 @@
-# My Project: Resume Builder
+# My Project: Exploration of language in the 1700s
 
 ## Project Description
-A Markdown-based resume builder that allows users to create, edit, and export interactive resumes with ease.
+A project that helps us better understand Jane Austens Pathos, logos and ethos while writing the book persuasion.
 
 ## Data Source
-- **Book 1:** [Luke's Wife](https://www.gutenberg.org/ebooks/71564) by [Evelyn R Garrett](https://www.gutenberg.org/ebooks/author/56019)
+- **Book 1:** [Persuasion](https://www.gutenberg.org/ebooks/105) by [Jane Austen](https://www.gutenberg.org/ebooks/author/68)
 
 ## Items of Interest
 - Chapters
-- Pages
+- Language
 - Definitions
 
 ## Proposed Layout
+
