@@ -1,4 +1,5 @@
-# Your project name
-Your given and family name.
+Language Exploration 
+Jennifer Rudesill
 
-A one-sentence description of your project.
+
+This project will allow those who are interested in Jane Austens literature a better understanding of the book Persuasion written by her.
