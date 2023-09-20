@@ -1,12 +1,16 @@
-const express = require('express');
-const path = require('path');
-const app = express();
+// Dependencies ////////////////////////////////////////////
+import express from 'express'
 
-// Configure server to use port 5163 by default
-const port = process.env.PORT || 5163;
+// Configuration ///////////////////////////////////////////
+const PORT = process.env.PORT || 5163
 
-// Configure server to use "./public/" for static files
-app.use(express.static(path.join(__dirname, 'public')));
+// Web server setup ////////////////////////////////////////
+const app = express()
+app.use(express.static('/node_modules'))
 
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
+// Ready for browsers to connect ///////////////////////////
+const displayPort = function () {
+    console.log('Listening on ' + PORT)
+}
+
+app.listen(PORT, displayPort)
