@@ -1,7 +1,48 @@
 body {
-  /* Your styles for the body */
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-.dark {
-  /* Your styles for dark mode */
+.header {
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.3s;
 }
+
+/* Light Theme Styles */
+.light-theme {
+    background-color: #ffffff; /* White background */
+    color: #333333; /* Dark gray text */
+}
+
+    .light-theme .header {
+        background-color: #f0f0f0; /* Light gray header background */
+    }
+
+    .light-theme a {
+        color: #007acc; /* Blue link color */
+    }
+
+    .light-theme button {
+        background-color: #007acc; /* Blue button background */
+        color: #ffffff; /* White button text */
+    }
+
+/* Dark Theme Styles */
+.dark-theme {
+    background-color: #333333; /* Dark gray background */
+    color: #ffffff; /* White text */
+}
+
+    .dark-theme .header {
+        background-color: #222222; /* Dark header background */
+    }
+
+    .dark-theme a {
+        color: #ff9900; /* Orange link color */
+    }
+
+    .dark-theme button {
+        background-color: #ff9900; /* Orange button background */
+        color: #000000; /* Black button text */
+    }
