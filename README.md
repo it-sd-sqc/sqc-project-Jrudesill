@@ -12,4 +12,6 @@ This project will allow those who are interested in Jane Austens literature a be
 
 ***ER Diagram***
 
+<<<<<<< HEAD
 ![Proposed Layout](LanguageERDiagram2.PNG)
+
