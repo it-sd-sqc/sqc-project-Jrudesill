@@ -1,9 +1,9 @@
 {
-  "type": "commonjs",
-  "name": "language-exploration",
+  "name": "app",
   "version": "1.0.0",
   "description": "Your given and family name.",
   "main": "index.js",
+  "type": "module",
   "directories": {
     "doc": "docs"
   },
@@ -20,9 +20,7 @@
     "stylelint-config-standard": "^34.0.0"
   },
   "dependencies": {
-    "cheerio": "^1.0.0-rc.12",
-    "express": "^4.18.2",
-    "sqlite3": "^5.1.6"
+    "express": "^4.18.2"
   },
   "keywords": []
 }
